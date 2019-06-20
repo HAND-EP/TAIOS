@@ -1,2 +1,2 @@
 tai is best!
-longtai is dick!
+the all in one shop!
