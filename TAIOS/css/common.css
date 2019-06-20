@@ -1,0 +1,10 @@
+body{
+    position: relative;
+    min-width: 1200px;
+    background-color: #fff;
+}
+.content_box{
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
