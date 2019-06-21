@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/deal_list.css"/>
+</head>
+<body>
+    <p>
+        <span id="all_deals" class="navi">全部订单</span>
+        <span id="wait_to_pay" class="navi">待付款</span>
+        <span id="wait_to_take" class="navi">待收货</span>
+    </p>
+    <div id="deals_container">
+        <table>
+            <thead>
+                <th>商品信息</th>
+                <th>单价（元）</th>
+                <th>数量</th>
+                <th>实付款</th>
+                <th>交易状态</th>
+                <th>交易操作</th>
+            </thead>
+            <tr class="tr_first_level">
+                <tr class="tr_second_level_1">
+                    <td>订单编号：</td>
+                    <td>下单时间：</td>
+                    <td>收件人：</td>
+                    <td>订单总额：</td>
+                </tr>
+    <!--            <p>-->
+    <!--                <span>订单编号：</span>-->
+    <!--                <span>下单时间：</span>-->
+    <!--                <span>收件人：</span>-->
+    <!--                <span>订单总额：</span>-->
+    <!--            </p>-->
+                <tr class="tr_second_level_2">
+                    <td>机器人</td>
+                    <td>1245</td>
+                    <td>2</td>
+                    <td>2490</td>
+                    <td class="deal_status">未付款</td>
+                    <td class="deal_action">
+                        <button>立即付款</button>
+                    </td>
+                </tr>
+            </tr>
+
+        </table>
+    </div>
+</body>
+</html>

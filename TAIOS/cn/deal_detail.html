@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="..\css\deal_detail.css">
+</head>
+<body>
+    <p><span>订单详情</span></p>
+    <div id="deal_detail_container">
+        <dl>
+            <!--订单状态栏-->
+            <div class="blank_box">
+                <dt>订单状态</dt>
+                <dd id="deal_state">新订单</dd>
+            </div>
+            <!--收货地址栏-->
+            <div class="blank_box">
+                <dt id="deal_address_label">收货地址</dt>
+                <dd id="deal_address">山东省***********</dd>
+            </div>
+            <!--订单详情栏-->
+            <div class="deal_info_box">
+                <dt id="deal_info_label">订单信息</dt>
+                <dd>订单编号：</dd>
+                <dd>下单时间：</dd>
+                <dd>商品合计：</dd>
+                <dd>店铺合计：</dd>
+                <dd>应付金额：</dd>
+                <dd>发票抬头：</dd>
+                <dd>发货时间：</dd>
+                <dd>物流公司：</dd>
+                <dd>物流单号：</dd>
+                <dd>物流联系方式：</dd>
+                <dd>收货时间：</dd>
+                <dd>支付金额：</dd>
+                <dd>支付状态：</dd>
+                <dd>支付时间：</dd>
+            </div>
+        </dl>
+        <!--商品信息表-->
+        <table id="goods_info">
+            <thead>
+                <th class="goods_name" width="30%">商品名称</th>
+                <th class="goods_price" width="17%">单价（元）</th>
+                <th class="goods_quantity" width="17%">数量</th>
+                <th class="goods_total" width="18%">商品总价</th>
+                <th class="goods_operation" width="18%">操作</th>
+            </thead>
+            <tbody></tbody>
+            <tr>
+                <td class="goods_name">机器人</td>
+                <td class="goods_price">1245</td>
+                <td class="goods_quantity">1</td>
+                <td class="goods_total">1245</td>
+                <td class="goods_operation">立即支付</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

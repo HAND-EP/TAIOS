@@ -1,0 +1,49 @@
+span{
+    color: dodgerblue;
+    border-bottom: 2px solid dodgerblue;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#deal_detail_container{
+    position: relative;
+    border:1px solid #aabbee;
+}
+.blank_box{
+    border-bottom:1px solid darkgray;
+}
+dt{
+    margin-left: 6px;
+    padding-left: 2px;
+    font-size: 18px;
+    border-left: 3px solid lightblue;
+}
+#deal_state,#deal_address{
+    padding-top:10px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+#deal_info_label{
+    margin-bottom: 10px;
+}
+.deal_info_box>dd {
+    display: inline-block;
+    margin-left: 60;
+    padding:5px;
+    width:45%;
+    border:1px solid;
+}
+table{
+    margin:auto ;
+    width:95%;
+    border-collapse: collapse;
+    text-align: center;
+}
+thead{
+    background-color: lightgray;
+    border:1px solid deepskyblue;
+}
+
+td{
+    border:1px solid darkgray;
+    height:50px;
+}
