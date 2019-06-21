@@ -1,14 +1,14 @@
-span{
+span{/*顶部导航标签*/
     color: dodgerblue;
     border-bottom: 2px solid dodgerblue;
     padding: 5px;
     margin-bottom: 10px;
 }
-#deal_detail_container{
+#deal_detail_container{/*订单详情展示区：div*/
     position: relative;
     border:1px solid #aabbee;
 }
-.blank_box{
+.blank_box{/*订单状态和收货地址的显示区*/
     border-bottom:1px solid darkgray;
 }
 dt{
@@ -22,17 +22,16 @@ dt{
     padding-left: 0px;
     padding-bottom: 20px;
 }
-#deal_info_label{
+#deal_info_label{/*订单详细信息的显示*/
     margin-bottom: 10px;
 }
-.deal_info_box>dd {
+.deal_info_box>dd {/*信息显示格*/
     display: inline-block;
-    margin-left: 60;
     padding:5px;
     width:45%;
     border:1px solid;
 }
-table{
+table{/*商品信息展示表格*/
     margin:auto ;
     width:95%;
     border-collapse: collapse;
@@ -42,7 +41,9 @@ thead{
     background-color: lightgray;
     border:1px solid deepskyblue;
 }
-
+thead>tr{
+    height:40px;
+}
 td{
     border:1px solid darkgray;
     height:50px;

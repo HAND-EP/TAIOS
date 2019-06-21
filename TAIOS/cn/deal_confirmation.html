@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/deal_confirmation.css">
+</head>
+<body>
+    <!--选择收货地址区域-->
+    <div class="select_address">
+        <p>选择收货地址</p>
+        <ul>
+            <li>
+                <div class="address_block">
+                    <span class="default_address">默认地址</span>
+                    <div class="receiver_name">
+                        <strong><span id="name">刘文强</span></strong>&nbsp;&nbsp;收
+                    </div>
+                    <div class="receiver_address">
+                        <span id="address">山东省济南市历下区********</span>
+                    </div>
+                    <div class="receiver_phone">
+                        <span id="phone">19100009914</span>
+                    </div>
+                    <button class="edit">编辑</button>
+                </div>
+            </li>
+            <a class="change_address" href="#">更换地址</a>
+        </ul>
+    </div>
+
+    <!--确认订单信息-->
+    <div class="deal_info">
+        <div class="label_block">
+            <p class="label">确认订单信息</p>
+        </div>
+        <!--商品信息表-->
+        <table id="goods_info">
+            <thead>
+            <tr>
+                <th class="goods_name" width="30%">商品名称</th>
+                <th class="goods_price" width="17%">单价（元）</th>
+                <th class="goods_quantity" width="17%">数量</th>
+                <th class="goods_total" width="18%">商品总价</th>
+                <th class="goods_operation" width="18%">操作</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+            <tr>
+                <td class="goods_name">机器人</td>
+                <td class="goods_price">1245</td>
+                <td class="goods_quantity">1</td>
+                <td class="goods_total">1245</td>
+                <td class="goods_operation">立即支付</td>
+            </tr>
+        </table>
+        <div class="submit">
+            <span class="label">商品金额：￥</span>
+            <span id="price">22000</span>
+            <span id="submit">提交订单</span>
+        </div>
+    </div>
+</body>
+</html>
