@@ -4,7 +4,10 @@ body {
     min-width: 1200px;
     background: #ffffff;
 }
-
+#header{
+    border-bottom: #E74F4D 2px solid;
+    padding-bottom: 26px;
+}
 /*内容盒子*/
 .content_box {
     width: 1100px;
@@ -15,7 +18,7 @@ body {
 .wrapper_box {
     width: 1200px;
     margin: 0 auto;
-    overflow: hidden
+    overflow: hidden;
 }
 
 /*头部导航*/
@@ -172,7 +175,8 @@ body {
 /*头部Logo和搜索开始*/
 .action_search_box {
     overflow: hidden;
-    padding-top: 18px
+    padding-top: 18px;
+
 }
 
 .logo {
@@ -433,4 +437,73 @@ body {
 
 .footer-info .info-text em {
     padding: 0 8px;
+}
+/*侧边栏*/
+.left_nav{
+    width: 180px;
+    background: #f6f6f6;
+    height: auto;
+    padding-bottom: 25px;
+}
+.person_info{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 140px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+.person_info .head_img{
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.person_info .head_img img{
+    width: 100%;
+    height: 100%;
+
+}
+.welcome_info{
+    margin: 10px auto;
+    width: 122px;
+    color: #888888;
+    text-align: center;
+}
+.level_score{
+    margin: 0 auto;
+    width: 122px;
+}
+.level_value,.score_value{
+    color: #E74F4D;
+    margin-left: 5px;
+}
+.left_nav .title{
+    color: #1a1a1a;
+    font-size: 16px;
+    line-height: 50px;
+    height: 50px;
+    border-left: 4px solid #E74F4D;
+    font-weight: bold;
+    margin-bottom: 10px ;
+}
+.left_nav .title .dashed{
+    font-size: 16px;
+    border-top: 1px dashed #bfbfbf;
+    height: 48px;
+    padding-left: 32px;
+}
+.left_nav .item{
+    font-size: 14px;
+    color: #4c4c4c;
+    line-height: 37px;
+    height: 37px;
+    padding-left: 35px;
+}
+.left_nav .item:hover{
+    color: #E74F4D;
+}
+.left_nav .active{
+    color: #E74F4D;
 }

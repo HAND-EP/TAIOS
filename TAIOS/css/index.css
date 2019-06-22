@@ -11,8 +11,7 @@ background-color: #F0F0F0;
     position: relative;
     z-index: 0;
     display: block;
-    margin-top: 26px;
-    border-bottom: #E74F4D 3px solid;
+    border-bottom: #E74F4D 2px solid;
 }
 
 #mallNav .mall_nav_main {
