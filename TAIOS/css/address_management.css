@@ -50,6 +50,10 @@ input{
     -moz-border-radius: 15%;
     border-radius: 15%;
 }
+.save:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
 .bottom_table{
     display: inline-block;
     margin-top: 30px;

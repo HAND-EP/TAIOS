@@ -1,8 +1,8 @@
-span{/*顶部导航标签*/
+#deal_detail_top_label{/*顶部导航标签*/
     color: dodgerblue;
     border-bottom: 2px solid dodgerblue;
     padding: 5px;
-    margin-bottom: 10px;
+    margin: 0px 0px 10px 10px;
 }
 #deal_detail_container{/*订单详情展示区：div*/
     position: relative;
@@ -13,7 +13,7 @@ span{/*顶部导航标签*/
 }
 dt{
     margin-left: 6px;
-    padding-left: 2px;
+    padding-left: 5px;
     font-size: 18px;
     border-left: 3px solid lightblue;
 }
@@ -29,7 +29,7 @@ dt{
     display: inline-block;
     padding:5px;
     width:45%;
-    border:1px solid;
+    /*border:1px solid;*/
 }
 table{/*商品信息展示表格*/
     margin:auto ;

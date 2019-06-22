@@ -1,10 +1,7 @@
 @charset "utf-8";
 
-/*body { font: 14px/1.8 'helvetica neue',tahoma,'hiragino sans gb',stheiti,*/
-/*'wenquanyi micro hei', \5FAE\8F6F\96C5\9ED1,\5B8B\4F53,sans-serif; color: #555;background: #fff;}*/
-
-body { font:14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
-    color: #555;background: #fff;}
+body { font: 14px/1.8 'helvetica neue',tahoma,'hiragino sans gb',stheiti,
+'wenquanyi micro hei', \5FAE\8F6F\96C5\9ED1,\5B8B\4F53,sans-serif; color: #555;background: #fff;}
 body, h1, h2, h3, h4, p, ul, ol, dd, dl, form { margin: 0;}
 input, button, select { font-size: 100%; box-sizing: border-box;margin: 0; padding: 0; 
   vertical-align: middle; border: 1px solid #ccc; outline: none;line-height: normal;}

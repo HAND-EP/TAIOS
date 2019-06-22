@@ -1,17 +1,20 @@
 @charset "utf-8";
 body {
-    position: relative;
-    min-width: 1200px;
+    /*position: relative;*/
+    min-width: 100%;
     background: #ffffff;
 }
 
 /*内容盒子*/
-.content_box {
-    width: 1100px;
-    margin: 0 auto;
-    overflow: hidden;
+/*.content_box {*/
+/*    width: 1100px;*/
+/*    margin: 0 auto;*/
+/*    overflow: hidden;*/
+/*}*/
+div{
+    margin: 0px;
+    padding: 0px;
 }
-
 .wrapper_box {
     width: 1200px;
     margin: 0 auto;
@@ -28,7 +31,7 @@ body {
 }
 
 .header_inbox {
-    width: 1100px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -58,6 +61,28 @@ body {
 .header_inbox img {
     float: left;
     margin-top: 10px
+}
+
+.middle_content{
+    display: inline-block;
+    width:100%;
+    margin: 20px;
+}
+
+.side_function{
+    width: 15%;
+    display: inline;
+    margin-left: 50px;
+}
+
+.middle_content iframe{
+    position: absolute;
+    display: inline-block;
+    border:1px solid lightgray;
+    width:80%;
+    margin-left:3%;
+    top:230px;
+    height: 1000px;
 }
 
 .my_action {
@@ -240,15 +265,6 @@ body {
     border-right: 1px #c2c1c1 solid
 }
 
-.hotword a:hover{
-    color: #E74F4D;
-    border-right: 1px #c2c1c1 solid;
-    -webkit-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
-}
-
 .Qrcode {
     margin-left: 150px;
     float: left;
@@ -313,6 +329,9 @@ body {
 }
 
 .site-footer .footer-article {
+    width:75%;
+    margin: auto;
+    /*margin-left:100px;*/
     padding: 30px 0 20px;
     overflow: hidden;
     border-bottom: 1px solid #4b5054;
@@ -321,7 +340,8 @@ body {
 .site-footer .col-article {
     float: left;
     width: 200px;
-    margin-right: 40px;
+    margin: 0px 20px 0px 20px;
+    /*margin-left: 80px;*/
 }
 
 .site-footer .col-article dt {
@@ -380,10 +400,11 @@ body {
 }
 
 .site-footer .col-code {
-    float: left;
+    float: right;
     width: 120px;
     text-align: center;
     color: #9b9ea0;
+    margin-right: 20px;
 }
 
 .site-footer .col-code img {

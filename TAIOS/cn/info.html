@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/side_function.css">
+
+    <title>info</title>
+</head>
+<body>
+<!--头部导航-->
+<header class="header_outbox">
+    <div class="header_inbox">
+        <div class="loginbox">
+            <p> 欢迎进入TAIOS配件商城</p>
+            <a href="#" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ 访问官网 ]</a>
+            <span id="register-info">
+		            <a href="#" class="login">&nbsp;&nbsp;&nbsp;&nbsp;登录&nbsp;&nbsp;</a>
+		            <img src="../images/header_line.png">
+		            <a href="#" class="login">&nbsp;&nbsp;免费注册&nbsp;&nbsp;&nbsp;&nbsp;</a>
+	            </span>
+            <span id="login-info" style="display: none;">
+	            	<a href="#" id="headerUsername" class="login"></a>
+		            <img src="../images/header_line.png">
+		            <a href="#" id="headerLogout" class="login">&nbsp;&nbsp;退出</a>
+	            </span>
+        </div>
+        <ul class="my_action fix">
+            <li>
+                <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我的关注</a>
+            </li>
+            <li>
+                <img src="../images/mix_car.png">
+                <a href="#">购物车<span id="cartQuantity">[0]</span></a>
+            </li>
+            <li>
+                <a href="#">我的商城</a>
+            </li>
+        </ul>
+    </div>
+</header>
+<!--头部导航结束-->
+<!--搜索栏开始-->
+<div class="wrapper_box action_search_box">
+    <a href="index/index.html" class="logo"><img src="../images/logo_nav.png" alt=""></a>
+    <div class="inputbox">
+        <input type="text" name="keyword" id="keyword" value="" placeholder="海量商品，一搜即可">
+        <a class="searchbtn" href="javascript:search();">搜&nbsp;索</a>
+        <div class="hotword">热销：
+            <a href="#" target="_blank">&nbsp;&nbsp;&nbsp;反坦克导弹&nbsp;&nbsp;&nbsp;</a>
+            <a href="#" target="_blank">&nbsp;&nbsp;&nbsp;龙太智能地雷&nbsp;&nbsp;&nbsp;</a>
+            <a href="#" target="_blank">&nbsp;&nbsp;&nbsp;094型核潜艇&nbsp;&nbsp;&nbsp;</a>
+            <a href="#" target="_blank">&nbsp;&nbsp;&nbsp;052C型驱逐舰&nbsp;&nbsp;&nbsp;</a>
+            <a href="#" target="_blank">&nbsp;&nbsp;&nbsp;杰拉尔德·R·福特号航空母舰&nbsp;&nbsp;&nbsp;</a>
+            <a href="#" target="_blank">&nbsp;&nbsp;&nbsp;CVN-77/龙太号&nbsp;&nbsp;&nbsp;</a>
+        </div>
+    </div>
+    <img class="Qrcode" src="../images/nav_Qrcode.png" alt="">
+</div>
+<!--搜索栏结束-->
+<div class="middle_content">
+    <!--左侧功能栏-->
+    <div class="side_function">
+        <!--基本信息模块-->
+        <div class="basic_info">
+            <div class="head_image"></div>
+            <h3 class="name">银月微风</h3>
+            <div class="vip_info">
+                <p class="vip_level">会员等级：<span id="vip_level">5</span></p>
+                <p class="vip_score">会员积分：<span id="vip_score">3</span></p>
+            </div>
+        </div>
+        <!--我的交易模块-->
+        <div class="my_deal">
+            <div class="label"><p>我的交易</p></div>
+            <ul class="function_list">
+                <li id="deal_list.html">订单列表</li>
+                <li id="deal_detail.html">订单详情</li>
+                <li id="deal_confirmation.html">订单确认</li>
+                <li id="address_management.html">地址管理</li>
+                <li>五</li>
+                <li>五</li>
+                <li>五</li>
+                <li>五</li>
+                <li>五</li>
+            </ul>
+        </div>
+        <!--我的账户模块-->
+        <div class="my_account">
+            <div class="label"><p>我的账户</p></div>
+            <ul class="account_info_list">
+                <li>个人资料</li>
+                <li>修改密码</li>
+            </ul>
+        </div>
+    </div>
+    <!--中间信息显示栏-->
+    <iframe src="address_management.html"></iframe>
+</div>
+<div class="footer_block">
+    <!--注册通栏-->
+<!--    <div class="register">-->
+<!--        <h2 class="title">找到心仪的产品了吗？快去购物车看看吧</h2>-->
+<!--        <p class="desc">THE ALL IN ONE SHOP</p>-->
+<!--        <a href="#" class="btn">购物车</a>-->
+<!--    </div>-->
+    <!--尾部-->
+
+    <div class="site-footer">
+
+        <div class="footer-related">
+
+            <div class="footer-article content_box">
+
+                <dl class="col-article">
+                    <dt>新手上路</dt>
+                    <dd>
+
+                        <a href="#">免费注册</a>
+
+                        <a href="#">个人资料</a>
+
+                        <a href="#">商品关注</a>
+
+                        <a href="#">查询订单</a>
+
+                        <a href="#">购物车</a>
+
+                    </dd>
+                </dl>
+
+                <dl class="col-article">
+                    <dt>付款/退款</dt>
+                    <dd>
+
+                        <a href="#">在线支付</a>
+
+                        <a href="#">货到付款</a>
+
+                        <a href="#">分期付款</a>
+
+                        <a href="#">邮局汇款</a>
+
+                        <a href="#">公司转账</a>
+
+                    </dd>
+                </dl>
+
+                <dl class="col-article">
+                    <dt>配送方式</dt>
+                    <dd>
+
+                        <a href="#">快递配送</a>
+
+                        <a href="#">小TAI物流</a>
+
+                        <a href="#">TAIOS速递</a>
+
+
+                    </dd>
+                </dl>
+
+                <dl class="col-article col-article-spe">
+                    <dt>联系我们</dt>
+                    <dd>
+                        <p><i class="iconfont orange"></i>XXX-XXX-XXXX</p>
+                        <p><i class="iconfont blue"></i>XXXXXXXXXX</p>
+                    </dd>
+                </dl>
+
+                <div class="col-code fl">
+                    <div class="code">
+                        <img src="../images/nav_Qrcode.png" alt="微信公众号">
+                    </div>
+                    <p>官方微信公众号</p>
+                </div>
+
+            </div>
+
+            <div class="footer-links">
+                <!-- 友情链接循环开始 -->
+
+                <a href="#" title="">关于我们</a>
+
+                <a href="#" title="">联系我们</a>
+
+                <a href="#" title="">联系客服</a>
+
+                <a href="#" title="">合作招商</a>
+
+                <a href="#" title="">营销中心</a>
+
+                <a href="#" title="">友情链接</a>
+
+                <a href="#" title="">小太快递</a>
+
+                <a href="#" title="">隐私政策</a>
+
+                <a href="#" title="">销售联盟</a>
+
+                <a href="#" title="">风险监测</a>
+
+                <a href="#" title="">小太约球</a>
+
+                <a href="#" title="">小太公益</a>
+
+                <a href="#" title="">诚聘英才</a>
+
+                <!-- 友情链接循环结束 -->
+            </div>
+
+            <div class="footer-info content_box">
+                <div class="info-text">
+                    <!-- 底部导航 -->
+                    <p class="nav-bottom">
+
+                        <a href="#">公司简介</a>
+
+                        <em>|</em>
+
+                        <a href="#">联系我们</a>
+
+                        <em>|</em>
+
+                        <a href="#">官网论坛</a>
+
+                        <em>|</em>
+
+                        <a href="#">投诉建议</a>
+
+                        <em>|</em>
+
+                        <a href="#">站点地图</a>
+
+                    </p>
+                    <p class="copyright">
+                        Copyright (C) TAIOS版权所有 2019-2020, All Rights Reserved<em></em>
+                        <a href="#" rel="nofollow">鲁ICP备xxxxx号</a>
+                    </p>
+                    <p class="company-info">山东省济南市历下区山东大学齐鲁软件学院　</p>
+                    <p class="qualified">
+
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<sctipt>
+    alert("sss");
+    $("li").click(function(){
+    $("iframe").attr("src",this.attr("id"));
+    });
+
+</sctipt>
+<!--<script src="../js/info.js"></script>-->
+</html>
