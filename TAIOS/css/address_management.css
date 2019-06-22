@@ -1,0 +1,90 @@
+.add_address{
+    display: inline-block;
+    width:100%;
+}
+.top_label{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid lightgray;
+    font-size: 18px;
+    font-weight: bold;
+}
+.new_address_info{
+    display: inline-block;
+    margin-left: 15%;
+    width:70%;
+}
+.new_address_info>p{
+    color: red;
+    font-weight: bold;
+    font-family: Dialog;
+    font-style: italic;
+}
+.new_address_info>div{
+    margin: 30px;
+}
+.side_label{
+    float: left;
+    margin-left:30px;
+    width: 10%;
+    text-align: right;
+}
+.side_label>span{
+    color: red;
+}
+input{
+    margin-left: 20px;
+    width: 40%;
+    height:30px;
+    font-size: 15px;
+    text-align: center;
+}
+.save{
+    margin-left: 30%;
+    width:50px;
+    height:30px;
+    border:1px solid;
+    background-color: aqua;
+    color: #fff;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    border-radius: 15%;
+}
+.bottom_table{
+    display: inline-block;
+    margin-top: 30px;
+    width:100%;
+}
+table{
+    border-collapse: collapse;
+    width:80%;
+    text-align: center;
+    margin:auto;
+}
+thead{
+    background-color: lightgray;
+    font-weight: bold;
+    font-size: 18px;
+}
+th{
+    height: 40px;
+}
+td{
+    border:1px solid lightgray;
+    height:50px;
+}
+
+.default_label{
+    border:1px solid darkred;
+    background-color:orangered;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    border-radius: 10%;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    color:orangered;
+}

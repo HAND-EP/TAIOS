@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/address_management.css"/>
+</head>
+<body>
+    <!--新增地址模块-->
+    <div class="add_address">
+        <div class="top_label">收货地址管理</div>
+        <!--新地址信息填写-->
+        <form>
+            <div class="new_address_info">
+                <p>新增收货地址</p>
+                <div>
+                    <div class="side_label"><span>*</span>地址信息</div>
+                    <input type="text" required placeholder="省/市/区/街道"/>
+                </div>
+                <div>
+                    <div class="side_label"><span>*</span>详细地址</div>
+                    <input type="text" required placeholder="请输入详细地址，如道路、小区、单元、门牌号等"/>
+                </div>
+                <div>
+                    <div class="side_label">邮政编码</div>
+                    <input type="text" placeholder="请填写邮编"/>
+                </div>
+                <div>
+                    <div class="side_label"><span>*</span>收货人姓名</div>
+                    <input type="text" required placeholder="长度不超过20字符"/>
+                </div>
+                <div>
+                    <div class="side_label"><span>*</span>手机号码</div>
+                    <input type="text" required placeholder="长度不超过20字符"/>
+                </div>
+                <button class="save" type="submit">保存</button>
+            </div>
+        </form>
+
+        <!--底部默认地址表单-->
+        <div class="bottom_table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>收货人</th>
+                        <th>所在地区</th>
+                        <th>详细地址</th>
+                        <th>邮编</th>
+                        <th>电话/手机</th>
+                        <th>操作</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>王光宇</td>
+                        <td>山东省济南市历下区</td>
+                        <td>小路小区单元某号</td>
+                        <td>250101</td>
+                        <td>***********</td>
+                        <td><a href="">修改</a>/<a href="">删除</a></td>
+                        <td><span class="default_label">默认地址</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
