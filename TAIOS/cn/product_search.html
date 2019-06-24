@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TAIOS机械配件商城</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/product_search.css">
+    <script src="../js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <!--头部开始-->
+    <div id="header_shadow"></div>
+    <!--页面内容-->
+    <div>
+        <div class="content_box pr">
+            <div class="productnav">
+                <span><a href="#">首页</a></span>
+                <span>&gt;</span>
+                <span><a href="#">混凝土机械</a></span>
+                <span>&gt;</span>
+                <span><a href="#">泵送搅拌系统</a></span>
+                <span>&gt;</span>
+                <span><a href="#">管阀类</a></span>
+            </div>
+
+            <!--产品类型-->
+            <div class="list_content_box">
+                <div>
+                    <p>产品类型</p>
+                    <div>
+                        <ul>
+                            <li><a style="background-color: #ff4a01" href="">混凝土机械</a></li>
+                            <li><a href="">建筑起重机械</a></li>
+                            <li><a href="">工程起重机械</a></li>
+                            <li><a href="">龙泰重工</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <p>配件类型:</p>
+                    <div class="parts_type">
+                        <div><a href=""></a></div>
+                        <div>
+                            <p>泵送搅拌系统:</p>
+                            <ul>
+                                <li><a style="background-color: #ff4a01" href="">管阀类</a></li>
+                                <li><a href="">易损件类</a></li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <p>aaa</p>
+                            <ul>
+                                <li><a href="">小太</a></li>
+                                <li><a href="">小太</a></li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <p>bbb</p>
+                            <ul>
+                                <li><a href="">aka</a></li>
+                                <li><a href="">whatssup</a></li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <p>底盘配件:</p>
+                            <ul>
+                                <li><a href="">底盘保养包</a></li>
+                                <li><a href="">滤芯</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--    搜索结果-->
+    <form id="productForm" action="#" method="get">
+        <input type="hidden" id="pageNumber" name="pageNumber" value="1">
+        <input type="hidden" id="pageSize" name="pageSize" value="20">
+        <div class="probox">
+            <a href="product_detail.html" target="_blank">
+            <img src="../images/searchs/s_02.jpg" width="202" height="202" alt="">
+            <h1>¥<strong>7750.00</strong></h1>
+            <h2>混凝土缸tai250</h2>
+            </a>
+        </div>
+    </form>
+
+<!--    分页-->
+    <div class="page">
+        <a href="javascript:void(0)">上一页</a>
+
+        <span>
+            <a href="javascript:void(0)" class="on">1</a>
+            <a href="javascript:void(0)">2</a>
+            <a href="javascript:void(0)">3</a>
+            <span class="ellipsis">...</span>
+            <a href="javascript:void(0)">112</a>
+        </span>
+
+        <a href="javascript:void(0)">下一页</a>
+        <span>共112页</span>
+        <span>到第
+            <input type="text" value="1">页
+            <input type="button" value="确定">
+        </span>
+    </div>
+
+    <!--尾部开始-->
+    <div id="footer_shadow"></div>
+    <script>
+        $("#header_shadow").load("./header.html");
+        $("#footer_shadow").load("./footer.html");
+    </script>
+</body>
+</html>

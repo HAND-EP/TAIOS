@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>配件详情</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/product_detail.css">
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/details.js"></script>
+</head>
+<body>
+<!--头部开始-->
+    <div id="header_shadow"></div>
+<!--商品详情-->
+    <div class="content_box pr">
+        <div class="productnav">
+            <span><a href="#">首页</a></span>
+            <span>&gt;</span>
+            <span><a href="#">混凝土机械</a></span>
+            <span>&gt;</span>
+            <span><a href="#">油品</a></span>
+            <span>&gt;</span>
+            <span><a href="#">液压油</a></span>
+        </div>
+        <!--商品详情开始-->
+        <div class="product_detail">
+            <!--左侧内容-->
+            <div>
+                <!--商品图片-->
+                <div class="product_picture_list l">
+                    <div>
+                        <img class="product_picture_img" src="../images/details/big_pic.jpg" alt="">
+                    </div>
+                    <div>
+                        <span style="margin-right: 8px;"><img src="../images/common/left_arrow.jpg" alt=""></span>
+                        <div class="product_picture_table_main l">
+                            <ul>
+                                <li>
+                                    <img src="../images/details/small_pic_01.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="../images/details/small_pic_02.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="../images/details/small_pic_03.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="../images/details/small_pic_04.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img class="product_picture_selected" src="../images/details/small_pic_05.jpg" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                        <span style="margin-left: 8px;"><img src="../images/common/right_arrow.jpg" alt=""></span>
+                    </div>
+                </div>
+<!--                商品图片结束-->
+
+<!--                商品信息开始-->
+                <div class="product_info_list l">
+<!--                    商品标题-->
+                    <div>
+                        <h3 class="l" title="龙太一号液压油200L">龙太一号液压油200L</h3>
+                        <div class="product_attention l">
+                            <a href="javascript:void(0);" id="store_btn">
+                                <span style="color: #fff;">关注</span>
+                            </a>
+                        </div>
+                    </div>
+<!--                    商品价格-->
+                    <div class="product_price_info">
+                        <span>现价:</span>
+                        <span dat="999">¥999.00</span>
+                        <div>
+                            <span>促销:</span>
+                            <a href="#">TAIOS开业大促，1折起，更有小太人偶抱回家</a>
+                        </div>
+                    </div>
+<!--                    产品发货-->
+                    <div class="product_delivery">
+                        <span>发货地:</span>
+                        <span>济南市</span>
+                        &nbsp;&nbsp;
+                        <span>配送方式:</span>
+                        <input type="radio" name="send_type" checked="checked">
+                        <label>小太白条</label>
+                        <input type="radio" name="send_type">
+                        <label>在线支付</label>
+                        &nbsp;&nbsp;
+                        <span id="freight"></span>
+                        <br>
+                        <span>配送至:</span>
+                        <span>
+                            <select name="" id="province" class="area">
+                                <option value=""  disabled selected>请选择</option>
+                                <option value="1">山西省</option>
+                                <option value="2">山东省</option>
+                            </select>
+                            <select name="" id="city" class="area">
+                                <option value=""  disabled selected>请选择</option>
+                                <option value="1358">晋城市</option>
+                                <option value="2359">济南市</option>
+                            </select>
+                            <select name="" id="district" class="area">
+                                <option value=""  disabled selected>请选择</option>
+                                <option value="1405">阳城县</option>
+                                <option value="1406">龙太县</option>
+                                <option value="2405">历下区</option>
+                                <input type="hidden" id="areaId" name="areaId" value="1405">
+                            </select>
+                        </span>
+                    </div>
+<!--                    商品购买相关-->
+                    <div class="product_select">
+                        <div>
+                            <span class="l">数量</span>
+                            <div class="l">
+                                <a href="javascript:void(0);" class="product_minus_2 l"></a>
+                                <input type="text" name="" id="product_num" value="1" maxlength="8" class="l" autocomplete="off">
+                                <a href="javascript:void(0);" class="product_plus_1 l"></a>
+                            </div>
+                            <p class="l">(一件起售)</p>
+                        </div>
+                        <div>
+                            <p class="l">购买方式</p>
+                            <input type="hidden" id="buyType" name="buyType" value="1-1">
+                            <div>
+                                <a href="javascript:void(0);" dat="2828" type="1-1" data-price="999.00">全额支付<i></i></a>
+                                <img src="../images/common/selected.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+<!--                    立即购买-->
+                    <div class="product_buy">
+                        <div>
+                            <a href="javascript:void(0);" id="buy">立刻购买</a>
+                        </div>
+                        <div>
+                            <a href="javascript:void(0);" id="addCart" class="buycar">加入购物车</a>
+                        </div>
+                    </div>
+<!--                    服务承诺-->
+                    <div class="pledges">
+                        <div class="l">
+                            服务承诺:
+                        </div>
+                        <div class="l">
+                            <div class="l"><img src="../images/common/pledges_01.jpg" alt=""></div>
+                            <div class="l"><img src="../images/common/pledges_02.jpg" alt=""></div>
+                            <div class="l"><img src="../images/common/pledges_03.jpg" alt=""></div>
+                        </div>
+                    </div>
+
+                </div>
+<!--                商品信息结束-->
+<!--                推荐套装开始-->
+                <div class="l recommended_package">
+                    <h3>推荐套装</h3>
+                    <div class="l">
+                        <div class="l">
+                            <div>
+                                <img src="../images/details/tj_left.jpg" alt="">
+                                <span style="display: block;">龙太一号液压油200L</span>
+                            </div>
+                        </div>
+                        <div class="l">
+                        </div>
+                        <div class="l">
+                            <div>
+                            <img src="../images/details/tj_left_02.jpg" alt="">
+                            <span style="display: block;">龙太印度神油</span>
+                            <input type="checkbox" name="product_extra" checked="checked">
+                            <label>¥1.00</label>
+                            </div>
+                        </div>
+                        <div class="recommended_package_price r">
+                            <div class="recommended_package_price_info">
+                                <span class="recommended_package_price_text">总计:</span>
+                                <span class="recommended_package_price_num">
+                                    <span class="total_price" dat="1000">¥1000.00</span>
+                                </span>
+                            </div>
+                            <a href="javascript:void(0);">
+                            <div>
+                                <div class="recommended_package_buy">
+                                    <div class="recommended_package_buy_btn">立刻购买</div>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="recommended_package_equal_sign r"></div>
+                    </div>
+                </div>
+<!--                推荐套装结束-->
+            </div>
+
+<!--            侧边栏开始-->
+            <div class="product_related_box l">
+                <div>相关配件</div>
+                <div>
+                    <div>
+                    <div>
+                        <a href="#" title="镜子">
+                            <img src="../images/details/rel_left_01.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <div><a href="镜子">龙太牌镜子</a></div>
+                        <div class="product_related_price"><span>¥111.11</span></div>
+                    </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <a href="#" title="水盆">
+                                <img src="../images/details/rel_left_02.jpg" alt="">
+                            </a>
+                        </div>
+                        <div>
+                            <div><a href="水盆">龙太牌水盆</a></div>
+                            <div class="product_related_price"><span>¥200.00</span></div>
+                        </div>
+                    </div>
+                    <div>
+                    <div>
+                        <a href="#" title="哑铃">
+                            <img src="../images/details/rel_left_03.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <div><a href="哑铃">龙太牌哑铃</a></div>
+                        <div class="product_related_price"><span>¥500.00</span></div>
+                    </div>
+                    </div>
+                    <div>
+                    <div>
+                        <a href="#" title="石锅">
+                            <img src="../images/details/rel_left_04.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <div><a href="石锅">龙太牌石锅</a></div>
+                        <div class="product_related_price"><span>¥999.99</span></div>
+                    </div>
+                </div>
+                </div>
+                <div>
+                    <img src="../images/common/arrow_up.jpg" alt="">
+                    <img src="../images/common/arrow_down.jpg" alt="">
+                </div>
+
+            </div>
+<!--            侧边栏结束-->
+<!--            产品详情开始-->
+            <div class="product_tab_bar_box l">
+                <ul class="product_tab_bar">
+                    <li class="product_tab_selected" data-index="0">
+                        产品详情
+                    </li>
+                    <li data-index="1">规格参数</li>
+                    <li data-index="2">累计评价
+                    <span class="product_tab_num"></span></li>
+                    <li data-index="3">案例</li>
+                </ul>
+                <ul class="product_tab_contents">
+                    <li class="product_tab_content_show">
+                        <div class="product_tab_content product_details_tab">
+                            <div class="product_details_tab_top">
+                                <span class="product_details_tab_title">龙太一号液压油200L</span>
+                                <img class="product_details_tab_top_line" src="../images/common/productDetailsTabTop_line.png" alt="">
+                            </div>
+                            <div class="product_details_tab_content">
+                                <div class="introduction">
+                                    <p align="left">
+                                        <span><strong><span>特别申明：</span></strong><span>地球上只有一个龙太，请爱护龙太</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_tab_content">200L</div>
+                    </li>
+                    <li>
+                        <div class="product_tab_content">宝贝不错，龙太液压油果然好用</div>
+                    </li>
+                    <li>
+                        <div class="product_tab_content">龙太惜时宴平乐，斗酒十千恣欢虐</div>
+                    </li>
+                </ul>
+            </div>
+<!--            产品详情结束-->
+        </div>
+    </div>
+<!--尾部开始-->
+    <div id="footer_shadow"></div>
+    <script>
+        $("#header_shadow").load("./header.html");
+        $("#footer_shadow").load("./footer.html");
+</script>
+
+</body>
+</html>

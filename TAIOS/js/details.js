@@ -11,13 +11,13 @@ $(function () {
 
 $(function () {
    //切换tab
-  	$(".productTabBar li").click(function(){
-  		$(".productTabBar li").removeClass("productTab-selected");
-  		$(this).addClass("productTab-selected");
+  	$(".product_tab_bar li").click(function(){
+  		$(".product_tab_bar li").removeClass("product_tab_selected");
+  		$(this).addClass("product_tab_selected");
   		var index = $(this).attr("data-index");
   		
-  		$(".productTabContents li").css("display","none");
-  		$(".productTabContents").find("li").eq(index).css("display","block");
+  		$(".product_tab_contents li").css("display","none");
+  		$(".product_tab_contents").find("li").eq(index).css("display","block");
   	});
 });
 
