@@ -1,6 +1,6 @@
 //首页广告位
 $(function () {
-   $(".slide_box").slide({mainCell:".bd ul",effect:"leftLoop",autoPlay:true});
+    $(".slide_box").slide({mainCell:".bd ul",effect:"leftLoop",autoPlay:true});
 });
 
 
@@ -67,13 +67,13 @@ $(function () {
 
 //楼层导航切换
 $(function(){
-   $('.floor1-nav').click(function(){
-       $('.floor1-nav').removeClass('hoverA');
-       $(this).addClass('hoverA');
-       $('.floor1-content').hide();
-       var box =  $(this).attr('data-type') + '-box';
-       $('div.floor1-content.'+box).show();
-   })
+    $('.floor1-nav').click(function(){
+        $('.floor1-nav').removeClass('hoverA');
+        $(this).addClass('hoverA');
+        $('.floor1-content').hide();
+        var box =  $(this).attr('data-type') + '-box';
+        $('div.floor1-content.'+box).show();
+    })
 
     $('.floor2-nav').click(function(){
         $('.floor2-nav').removeClass('hoverA');
