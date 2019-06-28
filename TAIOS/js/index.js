@@ -18,51 +18,6 @@ $(function () {
         return clientHeight - height;
     }
 
-    //鼠标划入时
-    $('.iten').hover
-    (
-        function () {
-            var children_div = $(this).children('div');
-
-            var t_this = $(this);
-            if (t_this.find(".sub_category .sub_view").text() == "") {
-                // t_this.find(".subCategory .subView").html("<img src=\"images/lodding.gif\" alt=\"加载中...\"/>");
-            }
-            //有子分类时才显示
-            t_this.find('.item_hd').css({
-                border:'none'
-            })
-            t_this.find('.item_hd').prev().css({
-                border:'none'
-            })
-            t_this.prev().find('.item_hd').css({
-                border:'none'
-            });
-            children_div.show();
-            $(this).addClass('selected');
-
-        },
-        //鼠标移除时
-        function () {
-            var children_div = $(this).children('div');
-            //children_div.css({
-            //    top: children_div.data('origin_top')
-            //})
-            $(this).find('.item_hd').css({
-                'border-bottom':'1px dotted white'
-            })
-            $(this).prev().find('.item_hd').css({
-                'border-bottom':'1px dotted white'
-            })
-
-            children_div.hide();
-
-            $(this).removeClass('selected');
-        }
-    );
-    $('.iten:nth-child(1)').css("margin-top", "0");
-});
-
 
 
 //楼层导航切换
@@ -95,3 +50,4 @@ $(function(){
 
 
 })
+});

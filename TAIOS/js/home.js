@@ -166,7 +166,8 @@ $(function product_sort() {
 $(function search() {
     $("#searchBtn").click(
         function () {
-
+            var proName = $("#keyword").val();
+            $(window).attr("location","product_search.html?name=" + proName);
 
         })
 });
